@@ -1,12 +1,14 @@
+import React from "react";
 import Nav from "../components/navegador/Nav";
 import Banner from "../components/banner/Banner";
-
-export default function Home() {
+const Contactanos = () => {
   return (
     <>
       <Nav />
       <Banner />
-      <h1>Nosotros</h1>
+      <div>Contactanos</div>
     </>
   );
-}
+};
+
+export default Contactanos;
